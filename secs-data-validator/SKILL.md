@@ -104,3 +104,4 @@ After running the validator, always:
   - `templates/example.sml` — pure SML, 4 messages (S1F1, S1F2, S6F11, S2F41)
   - `templates/init-sequence.log` — equipment init sequence, 19 messages (S1F13/14, S1F17/18, S2F33-38, S5F3/4, S1F3/4)
   - `templates/s5f3-alarm.log` — alarm enable/disable, 2 messages (S5F3/4)
+  - `templates/s2f23-trace.log` — trace init + data sequence, 8 messages (S2F23/24, S6F1/2 ×3)
