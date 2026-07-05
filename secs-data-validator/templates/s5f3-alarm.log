@@ -1,0 +1,16 @@
+2026-06-04 11:11:56.3985[TRACE]Send [S5F3] Enable/Disable Alarm Send,TrxId[202606041111563985],SystemBytes[33]
+00 01 85 03 00 00 00 00 00 21
+S5F3 H2E Wbit(True) DeviceID(1) Systembytes(33)
+'S5F3'W
+    <L [2] 
+        <B [1] 0x80>
+        <U4 [0] >
+    >
+.
+
+2026-06-04 11:11:56.4297[TRACE]Receive [S5F4] Enable/Disable Alarm Acknowledge,TrxId[202606041111564297],SystemBytes[33]
+00 01 05 04 00 00 00 00 00 21
+S5F4 E2H Wbit(False) DeviceID(1) Systembytes(33)
+'S5F4'
+    <B [1] 0x00>
+.
