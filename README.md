@@ -60,6 +60,22 @@ done
 | Message terminator | Missing `.` reported per message |
 | Log noise filtering | Timestamps, hex dumps, `SxFy H2E/E2H` metadata, `< >` markers stripped |
 
+#### Output file management
+
+When generating code, analysis reports, or processed files, the skill automatically organizes output into the `demo/` directory:
+
+```
+demo/
+├── python/          # Python scripts and code examples
+├── csharp/          # C# handlers and implementation code  
+├── logs/            # Processed and analyzed log files
+├── templates/       # Generated SML template files
+├── reports/         # Validation reports and analysis outputs
+└── docs/            # Generated documentation
+```
+
+This structure keeps generated content separate from source files while maintaining clear organization by file type.
+
 #### Included reference docs
 
 | Path | Content |
@@ -82,6 +98,13 @@ cline_skills/
 ├── docs/
 │   ├── cline-skills-guide.md     # Authoring guide: structure, triggers, naming
 │   └── strategy-pattern.md       # Design pattern reference (Strategy Pattern / Java examples)
+├── demo/                          # Generated output files organized by type
+│   ├── python/                    # Python scripts and examples
+│   ├── csharp/                    # C# code and handlers
+│   ├── logs/                      # Processed log files
+│   ├── templates/                 # SML template files
+│   ├── reports/                   # Validation reports and analysis
+│   └── docs/                      # Generated documentation
 └── secs-data-validator/
     ├── SKILL.md                   # Skill entry point (frontmatter + instructions)
     ├── scripts/
@@ -107,5 +130,6 @@ cline_skills/
 2. Add optional `docs/`, `scripts/`, `templates/` subdirectories as needed.
 3. Register in `.cline/skills/` (symlink or copy).
 4. Update the skills table in this README.
+5. If the skill generates output files, document the `demo/` subdirectory structure in SKILL.md.
 
 See [`docs/cline-skills-guide.md`](docs/cline-skills-guide.md) for naming conventions, description writing tips, and when to use scripts vs. inline instructions.
