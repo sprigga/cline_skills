@@ -1,0 +1,279 @@
+2026-06-04 11:06:35.8869[TRACE]Send [S1F13] Establish Communications Request,TrxId[202606041106358869],SystemBytes[19]
+00 01 81 0D 00 00 00 00 00 13
+S1F13 H2E Wbit(True) DeviceID(1) Systembytes(19)
+'S1F13'W
+    <L [0] 
+    >
+.
+
+2026-06-04 11:06:35.8869[TRACE]Receive [S1F14] Establish Communications Reply,TrxId[202606041106358869],SystemBytes[19]
+00 01 01 0E 00 00 00 00 00 13
+S1F14 E2H Wbit(False) DeviceID(1) Systembytes(19)
+'S1F14'
+    <L [2] 
+        <B [1] 0x00>
+        <L [2] 
+            <A [12] 'HoleAOI_9600'>
+            <A [19] '2026.0423.1820.0000'>
+        >
+    >
+.
+
+2026-06-04 11:06:35.9807[TRACE]Send [S1F17] Request ON-LINE,TrxId[202606041106359807],SystemBytes[20]
+00 01 81 11 00 00 00 00 00 14
+S1F17 H2E Wbit(True) DeviceID(1) Systembytes(20)
+< >
+
+2026-06-04 11:06:35.9963[TRACE]Receive [S1F18] ON-LINE Acknowledge,TrxId[202606041106359963],SystemBytes[20]
+00 01 01 12 00 00 00 00 00 14
+S1F18 E2H Wbit(False) DeviceID(1) Systembytes(20)
+'S1F18'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:36.0901[TRACE]Send [S2F37] Enable/Disable Event Report,TrxId[202606041106360901],SystemBytes[21]
+00 01 82 25 00 00 00 00 00 15
+S2F37 H2E Wbit(True) DeviceID(1) Systembytes(21)
+'S2F37'W
+    <L [2] 
+        <Boolean [1] False>
+        <L [0] 
+        >
+    >
+.
+
+2026-06-04 11:06:36.1057[TRACE]Receive [S2F38] Enable/Disable Event Report Acknowledge,TrxId[202606041106361057],SystemBytes[21]
+00 01 02 26 00 00 00 00 00 15
+S2F38 E2H Wbit(False) DeviceID(1) Systembytes(21)
+'S2F38'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:36.1838[TRACE]Send [S2F35] Link Event Report,TrxId[202606041106361838],SystemBytes[22]
+00 01 82 23 00 00 00 00 00 16
+S2F35 H2E Wbit(True) DeviceID(1) Systembytes(22)
+'S2F35'W
+    <L [2] 
+        <U4 [1] 1>
+        <L [0] 
+        >
+    >
+.
+
+2026-06-04 11:06:36.1838[TRACE]Receive [S2F36] Link Event Report Acknowledge,TrxId[202606041106361838],SystemBytes[22]
+00 01 02 24 00 00 00 00 00 16
+S2F36 E2H Wbit(False) DeviceID(1) Systembytes(22)
+'S2F36'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:36.5432[TRACE]Send [S2F33] Define Report,TrxId[202606041106365432],SystemBytes[23]
+00 01 82 21 00 00 00 00 00 17
+S2F33 H2E Wbit(True) DeviceID(1) Systembytes(23)
+'S2F33'W
+    <L [2] 
+        <U4 [1] 2>
+        <L [0] 
+        >
+    >
+.
+
+2026-06-04 11:06:36.5588[TRACE]Receive [S2F34] Define Report Acknowledge,TrxId[202606041106365588],SystemBytes[23]
+00 01 02 22 00 00 00 00 00 17
+S2F34 E2H Wbit(False) DeviceID(1) Systembytes(23)
+'S2F34'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:36.6763[TRACE]Send [S2F33] Define Report,TrxId[202606041106366763],SystemBytes[24]
+00 01 82 21 00 00 00 00 00 18
+S2F33 H2E Wbit(True) DeviceID(1) Systembytes(24)
+'S2F33'W
+    <L [2] 
+        <U4 [1] 3>
+        <L [6] 
+            <L [2] 
+                <U4 [1] 60001>
+                <L [2] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60002>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60002>
+                <L [2] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60003>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60003>
+                <L [2] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60004>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60012>
+                <L [8] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60006>
+                    <U4 [1] 60009>
+                    <U4 [1] 60015>
+                    <U4 [1] 60016>
+                    <U4 [1] 60017>
+                    <U4 [1] 60018>
+                    <U4 [1] 60019>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60013>
+                <L [3] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60006>
+                    <U4 [1] 60009>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60017>
+                <L [3] 
+                    <U4 [1] 60001>
+                    <U4 [1] 60013>
+                    <U4 [1] 60012>
+                >
+            >
+        >
+    >
+.
+
+2026-06-04 11:06:36.6919[TRACE]Receive [S2F34] Define Report Acknowledge,TrxId[202606041106366919],SystemBytes[24]
+00 01 02 22 00 00 00 00 00 18
+S2F34 E2H Wbit(False) DeviceID(1) Systembytes(24)
+'S2F34'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:36.8638[TRACE]Send [S2F35] Link Event Report,TrxId[202606041106368638],SystemBytes[25]
+00 01 82 23 00 00 00 00 00 19
+S2F35 H2E Wbit(True) DeviceID(1) Systembytes(25)
+'S2F35'W
+    <L [2] 
+        <U4 [1] 4>
+        <L [6] 
+            <L [2] 
+                <U4 [1] 60001>
+                <L [1] 
+                    <U4 [1] 60001>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60002>
+                <L [1] 
+                    <U4 [1] 60002>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60003>
+                <L [1] 
+                    <U4 [1] 60003>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60012>
+                <L [1] 
+                    <U4 [1] 60012>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60013>
+                <L [1] 
+                    <U4 [1] 60013>
+                >
+            >
+            <L [2] 
+                <U4 [1] 60017>
+                <L [1] 
+                    <U4 [1] 60017>
+                >
+            >
+        >
+    >
+.
+
+2026-06-04 11:06:36.8951[TRACE]Receive [S2F36] Link Event Report Acknowledge,TrxId[202606041106368951],SystemBytes[25]
+00 01 02 24 00 00 00 00 00 19
+S2F36 E2H Wbit(False) DeviceID(1) Systembytes(25)
+'S2F36'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:37.1138[TRACE]Send [S2F37] Enable/Disable Event Report,TrxId[202606041106371138],SystemBytes[26]
+00 01 82 25 00 00 00 00 00 1A
+S2F37 H2E Wbit(True) DeviceID(1) Systembytes(26)
+'S2F37'W
+    <L [2] 
+        <Boolean [1] True>
+        <L [6] 
+            <U4 [1] 60001>
+            <U4 [1] 60002>
+            <U4 [1] 60003>
+            <U4 [1] 60012>
+            <U4 [1] 60013>
+            <U4 [1] 60017>
+        >
+    >
+.
+
+2026-06-04 11:06:37.1294[TRACE]Receive [S2F38] Enable/Disable Event Report Acknowledge,TrxId[202606041106371294],SystemBytes[26]
+00 01 02 26 00 00 00 00 00 1A
+S2F38 E2H Wbit(False) DeviceID(1) Systembytes(26)
+'S2F38'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:37.4107[TRACE]Send [S5F3] Enable/Disable Alarm Send,TrxId[202606041106374107],SystemBytes[27]
+00 01 85 03 00 00 00 00 00 1B
+S5F3 H2E Wbit(True) DeviceID(1) Systembytes(27)
+'S5F3'W
+    <L [2] 
+        <B [1] 0x80>
+        <U4 [0] >
+    >
+.
+
+2026-06-04 11:06:37.4107[TRACE]Receive [S5F4] Enable/Disable Alarm Acknowledge,TrxId[202606041106374107],SystemBytes[27]
+00 01 05 04 00 00 00 00 00 1B
+S5F4 E2H Wbit(False) DeviceID(1) Systembytes(27)
+'S5F4'
+    <B [1] 0x00>
+.
+
+2026-06-04 11:06:37.5201[TRACE]Send [S1F3] Selected Status Request,TrxId[202606041106375201],SystemBytes[28]
+00 01 81 03 00 00 00 00 00 1C
+S1F3 H2E Wbit(True) DeviceID(1) Systembytes(28)
+'S1F3'W
+    <L [7] 
+        <U4 [1] 60002>
+        <U4 [1] 60003>
+        <U4 [1] 60004>
+        <U4 [1] 60006>
+        <U4 [1] 60009>
+        <U4 [1] 60012>
+        <U4 [1] 60013>
+    >
+.
+
+2026-06-04 11:06:37.5357[TRACE]Receive [S1F4] Selected Status Data,TrxId[202606041106375357],SystemBytes[28]
+00 01 01 04 00 00 00 00 00 1C
+S1F4 E2H Wbit(False) DeviceID(1) Systembytes(28)
+'S1F4'
+    <L [7] 
+        <A [13] 'Online Remote'>
+        <A [4] 'IDLE'>
+        <A [0] ''>
+        <A [0] ''>
+        <A [0] ''>
+        <A [0] ''>
+        <A [0] ''>
+    >
+.
